@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		228E8900288B2FE000A2AA7E /* Kelvin_To_RGBApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E88FF288B2FE000A2AA7E /* Kelvin_To_RGBApp.swift */; };
+		228E8902288B2FE000A2AA7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E8901288B2FE000A2AA7E /* ContentView.swift */; };
+		228E8904288B2FE300A2AA7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228E8903288B2FE300A2AA7E /* Assets.xcassets */; };
+		228E8907288B2FE300A2AA7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228E8906288B2FE300A2AA7E /* Preview Assets.xcassets */; };
+		228E8911288B2FE300A2AA7E /* Kelvin_To_RGBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E8910288B2FE300A2AA7E /* Kelvin_To_RGBTests.swift */; };
+		228E891B288B2FE300A2AA7E /* Kelvin_To_RGBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E891A288B2FE300A2AA7E /* Kelvin_To_RGBUITests.swift */; };
+		228E891D288B2FE300A2AA7E /* Kelvin_To_RGBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E891C288B2FE300A2AA7E /* Kelvin_To_RGBUITestsLaunchTests.swift */; };
+		228E892A288B308000A2AA7E /* Dict.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228E8929288B308000A2AA7E /* Dict.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		228E890D288B2FE300A2AA7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 228E88F4288B2FE000A2AA7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 228E88FB288B2FE000A2AA7E;
+			remoteInfo = "Kelvin To RGB";
+		};
+		228E8917288B2FE300A2AA7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 228E88F4288B2FE000A2AA7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 228E88FB288B2FE000A2AA7E;
+			remoteInfo = "Kelvin To RGB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		228E88FC288B2FE000A2AA7E /* Kelvin To RGB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kelvin To RGB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		228E88FF288B2FE000A2AA7E /* Kelvin_To_RGBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelvin_To_RGBApp.swift; sourceTree = "<group>"; };
+		228E8901288B2FE000A2AA7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		228E8903288B2FE300A2AA7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		228E8906288B2FE300A2AA7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		228E890C288B2FE300A2AA7E /* Kelvin To RGBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kelvin To RGBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		228E8910288B2FE300A2AA7E /* Kelvin_To_RGBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelvin_To_RGBTests.swift; sourceTree = "<group>"; };
+		228E8916288B2FE300A2AA7E /* Kelvin To RGBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kelvin To RGBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		228E891A288B2FE300A2AA7E /* Kelvin_To_RGBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelvin_To_RGBUITests.swift; sourceTree = "<group>"; };
+		228E891C288B2FE300A2AA7E /* Kelvin_To_RGBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelvin_To_RGBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		228E8929288B308000A2AA7E /* Dict.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dict.swift; path = "../../UI Com Imagem/UI Com Imagem/Dict.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		228E88F9288B2FE000A2AA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228E8909288B2FE300A2AA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228E8913288B2FE300A2AA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		228E88F3288B2FE000A2AA7E = {
+			isa = PBXGroup;
+			children = (
+				228E88FE288B2FE000A2AA7E /* Kelvin To RGB */,
+				228E890F288B2FE300A2AA7E /* Kelvin To RGBTests */,
+				228E8919288B2FE300A2AA7E /* Kelvin To RGBUITests */,
+				228E88FD288B2FE000A2AA7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		228E88FD288B2FE000A2AA7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				228E88FC288B2FE000A2AA7E /* Kelvin To RGB.app */,
+				228E890C288B2FE300A2AA7E /* Kelvin To RGBTests.xctest */,
+				228E8916288B2FE300A2AA7E /* Kelvin To RGBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		228E88FE288B2FE000A2AA7E /* Kelvin To RGB */ = {
+			isa = PBXGroup;
+			children = (
+				228E88FF288B2FE000A2AA7E /* Kelvin_To_RGBApp.swift */,
+				228E8901288B2FE000A2AA7E /* ContentView.swift */,
+				228E8929288B308000A2AA7E /* Dict.swift */,
+				228E8903288B2FE300A2AA7E /* Assets.xcassets */,
+				228E8905288B2FE300A2AA7E /* Preview Content */,
+			);
+			path = "Kelvin To RGB";
+			sourceTree = "<group>";
+		};
+		228E8905288B2FE300A2AA7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				228E8906288B2FE300A2AA7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		228E890F288B2FE300A2AA7E /* Kelvin To RGBTests */ = {
+			isa = PBXGroup;
+			children = (
+				228E8910288B2FE300A2AA7E /* Kelvin_To_RGBTests.swift */,
+			);
+			path = "Kelvin To RGBTests";
+			sourceTree = "<group>";
+		};
+		228E8919288B2FE300A2AA7E /* Kelvin To RGBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				228E891A288B2FE300A2AA7E /* Kelvin_To_RGBUITests.swift */,
+				228E891C288B2FE300A2AA7E /* Kelvin_To_RGBUITestsLaunchTests.swift */,
+			);
+			path = "Kelvin To RGBUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		228E88FB288B2FE000A2AA7E /* Kelvin To RGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228E8920288B2FE400A2AA7E /* Build configuration list for PBXNativeTarget "Kelvin To RGB" */;
+			buildPhases = (
+				228E88F8288B2FE000A2AA7E /* Sources */,
+				228E88F9288B2FE000A2AA7E /* Frameworks */,
+				228E88FA288B2FE000A2AA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kelvin To RGB";
+			productName = "Kelvin To RGB";
+			productReference = 228E88FC288B2FE000A2AA7E /* Kelvin To RGB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		228E890B288B2FE300A2AA7E /* Kelvin To RGBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228E8923288B2FE400A2AA7E /* Build configuration list for PBXNativeTarget "Kelvin To RGBTests" */;
+			buildPhases = (
+				228E8908288B2FE300A2AA7E /* Sources */,
+				228E8909288B2FE300A2AA7E /* Frameworks */,
+				228E890A288B2FE300A2AA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				228E890E288B2FE300A2AA7E /* PBXTargetDependency */,
+			);
+			name = "Kelvin To RGBTests";
+			productName = "Kelvin To RGBTests";
+			productReference = 228E890C288B2FE300A2AA7E /* Kelvin To RGBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		228E8915288B2FE300A2AA7E /* Kelvin To RGBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228E8926288B2FE400A2AA7E /* Build configuration list for PBXNativeTarget "Kelvin To RGBUITests" */;
+			buildPhases = (
+				228E8912288B2FE300A2AA7E /* Sources */,
+				228E8913288B2FE300A2AA7E /* Frameworks */,
+				228E8914288B2FE300A2AA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				228E8918288B2FE300A2AA7E /* PBXTargetDependency */,
+			);
+			name = "Kelvin To RGBUITests";
+			productName = "Kelvin To RGBUITests";
+			productReference = 228E8916288B2FE300A2AA7E /* Kelvin To RGBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		228E88F4288B2FE000A2AA7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					228E88FB288B2FE000A2AA7E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					228E890B288B2FE300A2AA7E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 228E88FB288B2FE000A2AA7E;
+					};
+					228E8915288B2FE300A2AA7E = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 228E88FB288B2FE000A2AA7E;
+					};
+				};
+			};
+			buildConfigurationList = 228E88F7288B2FE000A2AA7E /* Build configuration list for PBXProject "Kelvin To RGB" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 228E88F3288B2FE000A2AA7E;
+			productRefGroup = 228E88FD288B2FE000A2AA7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				228E88FB288B2FE000A2AA7E /* Kelvin To RGB */,
+				228E890B288B2FE300A2AA7E /* Kelvin To RGBTests */,
+				228E8915288B2FE300A2AA7E /* Kelvin To RGBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		228E88FA288B2FE000A2AA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228E8907288B2FE300A2AA7E /* Preview Assets.xcassets in Resources */,
+				228E8904288B2FE300A2AA7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228E890A288B2FE300A2AA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228E8914288B2FE300A2AA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		228E88F8288B2FE000A2AA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228E8902288B2FE000A2AA7E /* ContentView.swift in Sources */,
+				228E892A288B308000A2AA7E /* Dict.swift in Sources */,
+				228E8900288B2FE000A2AA7E /* Kelvin_To_RGBApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228E8908288B2FE300A2AA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228E8911288B2FE300A2AA7E /* Kelvin_To_RGBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		228E8912288B2FE300A2AA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228E891D288B2FE300A2AA7E /* Kelvin_To_RGBUITestsLaunchTests.swift in Sources */,
+				228E891B288B2FE300A2AA7E /* Kelvin_To_RGBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		228E890E288B2FE300A2AA7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 228E88FB288B2FE000A2AA7E /* Kelvin To RGB */;
+			targetProxy = 228E890D288B2FE300A2AA7E /* PBXContainerItemProxy */;
+		};
+		228E8918288B2FE300A2AA7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 228E88FB288B2FE000A2AA7E /* Kelvin To RGB */;
+			targetProxy = 228E8917288B2FE300A2AA7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		228E891E288B2FE300A2AA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		228E891F288B2FE300A2AA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		228E8921288B2FE400A2AA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kelvin To RGB/Preview Content\"";
+				DEVELOPMENT_TEAM = 647MFA6TDC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sevio-Correa.Kelvin-To-RGB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		228E8922288B2FE400A2AA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kelvin To RGB/Preview Content\"";
+				DEVELOPMENT_TEAM = 647MFA6TDC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sevio-Correa.Kelvin-To-RGB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		228E8924288B2FE400A2AA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647MFA6TDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sevio-Correa.Kelvin-To-RGBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kelvin To RGB.app/Kelvin To RGB";
+			};
+			name = Debug;
+		};
+		228E8925288B2FE400A2AA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647MFA6TDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sevio-Correa.Kelvin-To-RGBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kelvin To RGB.app/Kelvin To RGB";
+			};
+			name = Release;
+		};
+		228E8927288B2FE400A2AA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647MFA6TDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sevio-Correa.Kelvin-To-RGBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kelvin To RGB";
+			};
+			name = Debug;
+		};
+		228E8928288B2FE400A2AA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647MFA6TDC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sevio-Correa.Kelvin-To-RGBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kelvin To RGB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228E88F7288B2FE000A2AA7E /* Build configuration list for PBXProject "Kelvin To RGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228E891E288B2FE300A2AA7E /* Debug */,
+				228E891F288B2FE300A2AA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228E8920288B2FE400A2AA7E /* Build configuration list for PBXNativeTarget "Kelvin To RGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228E8921288B2FE400A2AA7E /* Debug */,
+				228E8922288B2FE400A2AA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228E8923288B2FE400A2AA7E /* Build configuration list for PBXNativeTarget "Kelvin To RGBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228E8924288B2FE400A2AA7E /* Debug */,
+				228E8925288B2FE400A2AA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228E8926288B2FE400A2AA7E /* Build configuration list for PBXNativeTarget "Kelvin To RGBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228E8927288B2FE400A2AA7E /* Debug */,
+				228E8928288B2FE400A2AA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 228E88F4288B2FE000A2AA7E /* Project object */;
+}
